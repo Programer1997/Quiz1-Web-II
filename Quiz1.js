@@ -7,14 +7,14 @@
 4- How do you access object values? Give 3 examples */
 
    //example 1 :  dot notation :
-
-/*        const object = {
+       
+   const object4 = {
             name : "Abraham",
             lastName : "Velazquez",
             cel : "662 593 89 71"
         };
 
-        console.log(object.cel);
+        console.log(object4.cel);
         
 
     //example 2  : braket notation
@@ -40,7 +40,7 @@
 
     let lastName = object3.lastName;
 
-    console.log(lastName);*/
+    console.log(lastName);
     
 
 
@@ -52,7 +52,7 @@
     it is a way to handle asynchronous operation, whit the promises we can handle the results when this take some time to complete or execute.Array
     normally we use resolve and reject.
 7- Convert this async function to async/await*/
-/*
+
 getQuote().then((quote) => {
   console.log(quote);
 }).catch(function(err) {
@@ -71,9 +71,9 @@ async function quoteFunction () {
 
     }
 
-}*/
+}
 
-/*8- Convert this code to arrow function.
+/*8- Convert this code to arrow function.*/
 
 function greeting(firstname, lastname) {
   return `Hello ${firstname} ${lastname}`;
@@ -85,7 +85,7 @@ const greeting1 = (firstname, lastName)=>  `Hello ${firstname} ${lastName} `
 
 
 console.log(greeting("abraham", "velazquez"));
-console.log(greeting1("abraham", "velazquez"));*/
+console.log(greeting1("abraham", "velazquez"));
 
 
 /*9- Explain what a callback function is.
@@ -106,8 +106,28 @@ for (let key in object) {
 }
 console.log(string);
 
+//Answer  : 123
+
+
+
 /*
 12- What data type would Array.map() and Array.filter() return?
+
+    //both give back an array however the result we can get depends about the function we provide to the method.
+
+
 13- What data type would Array.includes() and Array.some() return?
+
+    //both return boolean value, "true" or "false", what return depends what we used,
+        array.includes : return boolean value if it find the value that you are looking for and also you provided it.
+        array.some : does something similar like above however, the boolean value that we can get depends of the function created for the programer
+
+
 14- Write down the 4 main methods of rest api
-15- What is the difference between JSON and a JavaScript object?*/
+        - get
+        - post
+        - delete 
+        - put
+15- What is the difference between JSON and a JavaScript object?
+    JSON : is data interchange format , ussually used to transmit information between server and we application.Array
+    JavaScript object  : is a data structure and we can use it inside JavaScript programming language.*/
